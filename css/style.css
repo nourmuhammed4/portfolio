@@ -1,0 +1,204 @@
+/* font-family: 'GFS Didot', serif;
+font-family: 'Lato', sans-serif;
+font-family: 'Playfair Display', serif;
+ */
+
+ @import url('https://fonts.googleapis.com/css2?family=GFS+Didot&family=Lato&family=Playfair+Display:wght@400;700&display=swap');
+*{
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+scroll-behavior: smooth;
+}
+   
+ .landing{
+height: 100vh;
+background-image: url(../img/hero.jpg);
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+height: 100vh;
+}
+
+header .container .navbar-nav a:hover, a:active{
+    color: rgb(0, 233, 230);
+}
+
+.container{
+    margin: 40px;
+    width: 100%;
+}
+.landing-page{
+    background-color: rgba(0,0,0,.8);
+    width: 100%;
+    height: 100%;
+}
+
+.landing h1{
+display: block;
+letter-spacing: 4px;
+    font-size: 100px;
+    color: #fff;
+    font-family: 'GFS Didot', serif;
+    font-weight: 700;
+    position: absolute;
+    left: 35%;
+    top: 30%;
+}
+.landing h1 a{
+    color: #fff;
+    position: absolute;
+    left: 30%;
+    font-size: 55px;
+padding-top: 50px;
+}
+.landing h1 a:hover{
+    color: rgb(0, 233, 230);
+}
+
+nav{
+    background-color:rgba(0, 0, 0, .8);
+}
+.container a{
+    color: #fff;
+    font-family: 'GFS Didot', serif;
+    font-size: 25px;
+    text-decoration: none;
+}
+ span{
+    color: rgb(0, 233, 230);
+}
+.navbar-nav a{
+    font-family: 'Lato', sans-serif;
+font-size: 20px;
+}
+
+ section {
+    padding: 30px;
+    margin-bottom: 130px;
+
+}
+.portfolio-left h1{
+    font-family: 'GFS Didot', serif;
+    font-weight: 700;
+    font-size: 50px;
+
+}
+.portfolio-left li {
+    float: left;
+    list-style: none;
+    padding: 10px 30px;
+
+}
+.portfolio-left li a{
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
+    color: black;
+
+}
+.portfolio-left li a:hover , a:active{
+    color: rgb(0, 233, 230);
+}
+.gallery .row img:hover{
+    transform:translateY(-10px);
+} 
+section{
+    position: relative;
+}
+.arrow{
+    position: absolute;
+    left: 50%;
+    top: 100%;
+    text-align: center;
+}
+
+.arrow a{
+    color: black;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+
+}
+a:hover, a:active{
+    color: rgb(0, 233, 230);
+}
+
+
+.arrow i{
+    font-size: 45px;
+
+}
+
+.info{
+    background-color: black;
+    color: #fff;
+}
+.info .container .col-4{
+    margin: 100px 0px;
+
+}
+.info .container .col-6{
+    margin: 100px 0px;
+
+}
+.info .container .col-2{
+    margin: 100px 0px;
+
+}
+.info .col-4{
+    font-family: 'GFS Didot', serif;
+    font-weight: 700;
+    font-size: 35px;
+
+}
+.col-5 img{
+    height: 400px;
+
+}
+.me {
+    border-bottom:2px solid black;
+}
+.me .col-7 h1{
+    font-family: 'GFS Didot', serif;
+    font-weight: 700;
+    letter-spacing: 2px;
+    font-size: 40px;
+
+}
+.contact h1{
+    font-family: 'GFS Didot', serif;
+    font-weight: 700;
+    letter-spacing: 2px;
+    font-size: 40px;
+    margin-top: -5px;
+
+
+} 
+.contact a {
+    font-family: 'Lato', sans-serif;
+    color: black;
+    font-size: 16px;
+
+}
+a:hover{
+    color: rgb(0, 233, 230);
+}
+
+input{
+    border: none;
+    border-bottom: 1px solid black;
+
+}
+footer img{
+    width: 80px;
+
+}
+footer .container a{
+    color: black;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+
+}
+footer .container a:hover{
+    color: rgb(0, 233, 230);
+}
